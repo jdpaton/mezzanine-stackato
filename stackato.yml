@@ -1,0 +1,13 @@
+name: mezzanine
+
+mem: 64M
+
+env:
+  DJANGO_SETTINGS_MODULE: settings
+
+hooks:
+  post-staging:
+    - python manage.py createdb --noinput
+
+ignores: 
+  - '*.pyc'
