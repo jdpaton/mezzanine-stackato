@@ -8,6 +8,7 @@ env:
 hooks:
   post-staging:
     - python manage.py createdb --noinput
+    - python manage.py changepassword2 admin mezzanine
 
 ignores: 
   - '*.pyc'
