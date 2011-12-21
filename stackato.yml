@@ -11,3 +11,4 @@ hooks:
 
 ignores: 
   - '*.pyc'
+  - 'mezzanine.db'
