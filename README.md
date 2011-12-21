@@ -5,17 +5,17 @@ This a vanilla Mezzanine CMS project that is ready to deploy straight
 to a Stackato cloud.
 
 
-** Local development **
+**Local development**
 
     pip install -r requirements.pip
     python manage.py createdb --noinput
     python manage.py runserver
 
-** Deploying to stackato **
+**Deploying to stackato**
 
     stackato push -n
 
-** Default admin user **
+**Default admin user**
 
 The default admin user credentials are:
 
